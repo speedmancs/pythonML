@@ -7,6 +7,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import KFold
 from sklearn.metrics import confusion_matrix, f1_score
+from sklearn.feature_extraction.text import TfidfTransformer
 
 NEWLINE = '\n'
 
